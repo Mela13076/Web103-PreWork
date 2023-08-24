@@ -1,0 +1,291 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+/***************** HOME Page ***************/
+
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.worldImage {
+  width: 100%;
+  max-height: 600px;
+}
+
+.headerContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.headerButtons {
+  display: flex;
+}
+
+.btn{
+  background-color: rgb(236, 184, 79);
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #ff7f00;
+}
+
+
+
+
+/********************* Create/Edit Page  **********************/
+
+.create{
+  align-content: center;
+  margin: 0 30px;
+}
+
+
+.create-content,
+.edit-content{
+  
+  margin: 30px auto;
+  width: 80%;
+  border: 2px solid rgb(236, 184, 79);
+  background-color: black;
+}
+
+.create-content h2,
+.edit-content h2{
+  color: rgb(236, 184, 79);
+}
+
+.quote{
+  background-color: black;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+.mini-container-two{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10%;
+  
+}
+
+.mini-container-two label {
+  display: flex;
+  margin-right: 10px; /* Add some spacing between radio inputs */
+  margin-bottom: 5px; /* Adjust the spacing between rows of radio inputs */
+}
+
+
+
+.mini-container label,
+.label{
+  text-align: left;
+  margin-left: 10%;
+}
+
+textarea{
+  width: 80%;
+  border-bottom: 2px solid rgb(236, 184, 79);
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(236, 184, 79);
+}
+
+button {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 20px;
+  background: rgb(236, 184, 79);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button :hover {
+  transform: scale(1.1);
+  background-color: #ff7f00;
+}
+
+.createBtn:hover {
+  background: black;
+  color: rgb(236, 184, 79);
+  text-decoration: none;
+  border: 2px solid rgb(236, 184, 79);
+  cursor: pointer;
+}
+
+.back-btn{
+  background-color: rgb(236, 184, 79);
+  padding: 5px;
+  border-radius: 6px;
+  align-items: start;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/************** Creator Card *************/
+
+/* Styling for the card container */
+.card {
+  width: calc(33.33% - 40px); /* Three cards in a row with some spacing */
+  max-width: 300px; /* Limit the maximum card width */
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+/* Styling for the card content */
+.card-content {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+/* Styling for the heading */
+.card-content h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Styling for the description */
+.card-content p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Styling for the link */
+.card-content a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgb(236, 184, 79);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Styling for the list of creator cards */
+.creator-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px; /* Limit the maximum container width */
+}
+
+
+
+/****************** View Creator Page **************/ 
+
+
+.info{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.info-image{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Styling for the social media section */
+.social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for the social media icons */
+.social-medias a {
+  display: inline-block;
+  /* margin: 0 10px; */
+}
+
+.social-medias img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(236, 184, 79);
+  padding: 8px;
+  margin: 3px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Hover effect for the icons */
+.social-medias img:hover {
+  transform: scale(1.1);
+  background-color: #ff7f00;
+}
+
+.edit-delete{
+  margin-top: 50px;
+}
+
+.edit-delete img{
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: rgb(236, 184, 79);
+  padding: 8px;
+  margin: 3px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.edit-delete img:hover{
+  transform: scale(1.1);
+  background-color: #ff7f00;
+  cursor: pointer;
+}
+
