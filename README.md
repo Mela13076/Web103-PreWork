@@ -1,10 +1,10 @@
 # WEB103 Prework - *CreatorVerse*
 
-Submitted by: Amelia Trevino
+Submitted by: **Amelia Trevino**
 
-About this web app: This website allows users to add their favorite creators such as gamers, streamers, content creators, and more!
+About this web app: This website allows users to add their favorite creators such as gamers, streamers, content creators, and more to a database. User can view all creators on file, visit their individual sites, and discover more about the creator. 
 
-Time spent: **5** hours
+Time spent: **8** hours
 
 ## Required Features
 
@@ -29,16 +29,16 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Made site and creator cards responsive 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/rS6DoZY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap GIF tool here
+GIF created with Kap GIF tool
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

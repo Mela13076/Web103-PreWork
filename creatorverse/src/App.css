@@ -171,9 +171,9 @@ button :hover {
 /************** Creator Card *************/
 
 /* Styling for the card container */
-.card {
-  width: calc(33.33% - 40px); /* Three cards in a row with some spacing */
-  max-width: 300px; /* Limit the maximum card width */
+.card { 
+  width: 300px; /* Limit the maximum card width */
+  height: 175px;
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -190,6 +190,7 @@ button :hover {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
+  height: 175px;
 }
 
 /* Styling for the heading */

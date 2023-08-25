@@ -37,11 +37,11 @@ function Edit(){
         await supabase.from('creators').update({
             name: creators.name,
             description: creators.description,
-            imageUrl: creators.image_url,
-            twitterUrl: creators.twitter_url,
-            instagramUrl: creators.instagram_url,
-            youtubeUrl: creators.youtube_url,
-            twitchUrl: creators.twitch_url
+            imageUrl: creators.imageUrl,
+            twitterUrl: creators.twitterUrl,
+            instagramUrl: creators.instagramUrl,
+            youtubeUrl: creators.youtubeUrl,
+            twitchUrl: creators.twitchUrl
         }).eq('id', id);
 
         //redirect to the home page
